@@ -32,8 +32,6 @@ const CreateChatButton = styled(({ className, onCreateChat, onLogout, onAbout })
     <Button className={className} type="button" onClick={onCreateChat}>Create</Button>
     <Gap className={className} />
     <Button className={className} type="button" onClick={onAbout}>About</Button>
-    <Gap className={className} />
-    <Button className={className} type="button">Shops</Button>
   </ButtonBox>)) `
   float: right;
 `

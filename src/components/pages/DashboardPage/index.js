@@ -57,8 +57,6 @@ class DashboardPage extends Component {
         this.io.disconnect()
     }
     onAbout() {
-        console.log(this)
-        console.log(this.props)
         this.props.history.push(`/about`)
     }
     createChat() {
