@@ -12,10 +12,10 @@ const ProfileContainer = styled.div`
 	background: rgb(255,255,255,0.8);
 	border-radius: 30px;
 	width: 800px;
-	height: 450px;
+	height: 500px;
 	overflow: auto;
 	color: #585354;
-	letter-spacing: 0.8px;
+	line-height: 150%;
 `
 const AboutPage = () => {
 	return (
